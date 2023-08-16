@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Me</title>
+    <link rel="icon" href="./logo design.png">
+    <style>
+        h1{
+            text-align:center;
+            /* border:5px solid rosybrown; */
+            border-radius:1000px;
+            background-color:aqua;
+            color:blue;
+            font-size:60px;
+        }
+        .one{
+            text-align:center;
+            font-size:30px;
+            background-color:honeydew;
+        }
+        .two{
+            text-align:center;
+            font-size:50px;
+        }
+        .three{
+            text-align:left;
+        }
+        .four{
+            text-align:right;
+        }
+
+    </style>
+</head>
+ <body  background="./bgimage.jpeg">
+    <h1>Contact Me</h1>
+    <form class="one">
+         <fieldset>
+           <legend><h2>Contact Me:</h2></legend>
+           <label for="name"><b>Name</b></label>
+           <input type="text" required  id="name" name="name" pattern="[a-z]{4,15}"><br><br>
+           <label for="reason"><b>Reason</b></label>
+           <input type="text" required id="reason"  name="reason" width="200vh" height="200vh"><br><br>
+           <label for="email"><b>E-mail</b></label>
+           <input type="email" required id="email" name="email"><br><br>
+           <label for="number"><b>Contact Number</b></label>
+           <input type="number" required  id="number" name="number" pattern="[6-9]{1}[0-9]{9}"><br><br>
+        </fieldset>
+        <br><br>
+    </form>
+    <br><br><br><br>
+    <form class="two" action="./Submit.html">
+    <button style="background-color:floralwhite;color:green;font-size:30px;"><b>Submit</b></button>
+    </form><br><br><br><br><br><br><br><br><br><br><br><br>
+    <form class="three" action="./Certificates.html">
+        <button style="background-color:floralwhite;color:darkgoldenrod;font-size:20px;">Previous</button>
+    </form>
+    <form class="four" action="Main_Project.html">
+    <button style="background-color:floralwhite;color:darkgoldenrod;font-size:20px;">Next</button></h4>
+    </form>
+    
+</body>
+</html>
